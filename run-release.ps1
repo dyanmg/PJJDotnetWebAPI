@@ -1,3 +1,4 @@
 $env:ASPNETCORE_ENVIRONMENT="Staging"
 $env:DisableGlobalAuthorize="true"
-dotnet ./publish/Day1WebApi.dll
+Set-Location ./publish
+dotnet ./Day1WebApi.dll
