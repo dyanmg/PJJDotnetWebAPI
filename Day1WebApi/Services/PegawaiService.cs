@@ -19,7 +19,7 @@ namespace Day1WebApi.Services
         public PaginationResponse<Pegawai> GetAllPegawai(PegawaiQueryParam pegawaiQueryParam)
         {
 
-            var pegawai = _appDbContext.Pegawai.AsQueryable().IgnoreQueryFilters();
+            var pegawai = _appDbContext.Pegawai.AsQueryable();
             if(pegawaiQueryParam.Nama != null)
             {
                 pegawai = pegawai.Where(p => p.Nama.ToLower().Contains(pegawaiQueryParam.Nama.ToLower())).AsQueryable();

@@ -22,6 +22,7 @@ namespace Day1WebApi.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+
             modelBuilder.Entity<Aset>(e =>
             {
                 e.ToTable("aset");

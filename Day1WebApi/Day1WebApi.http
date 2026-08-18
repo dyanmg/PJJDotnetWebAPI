@@ -1,6 +1,6 @@
-@Day1WebApi_HostAddress = http://localhost:5198
-# @Day1WebApi_HostAddress = http://localhost:5000
-@AccessToken = CfDJ8CdmO7BRiEhNhpJEDHdQK8UJkmg8kn61DMFSebS2Y9xXB3MGtP5qbl_l_pxB46DT6MvuJ1s4OnSpIZrkuHsYl49Yv1ucbOd2emm09WQVQNMW9dT_N1WHG3tW5UPEfEiFCI40-QqkUhpPtwl4hp3Rihl4mtuBJb9FlMhT1FDjnlqXKnc2RoEnf-cGYw0xXYnDRmUVfXk2uUEW_C8wTFBa5wtd7o-t0nqz0zjAGfXGl66e3RZQv3NfHc3xs7i6NlivX9s55PO3R4Nz2uiK-MHG42loc_CiLQHcyYezgQBqVYUpEjqx3-PFsuqJVxSd-cddNrTerWnfP_nq69hh7_beMlOKByGwPcmxN0rDcU-56opHYx5erfpHB9aPPo0ox0gMn8NWcoIoYJmttS5h8MEb6EtsbewKV_7axSGaRISE5kGeCThYeAfulCPjO62rfoj1eNuv7onKG8DM6QlV_KIP8B8lnesmcUlFgA05DhagDp3SdRhKyt9GYwzZeQ5PETG2bUZb1AEY-Me9dX9FCfw8zFgCeWYCPtCn9AN_O9iRQBk4uLel0hfnEf1x-z_GfywqwUj6pqVKegw89h303d3wHCQw4JMW53D0s878E_Lwt31WryA5J8yGGO9hWbubd78-YKCDeKQlAl_LwmvQnBeZSVj4nh0fn9SCjotE1QNouXY37hbrAKob38XCJOVwoiStFhIycPFMtJCqueOMEyoT24gcUNbDSOzAVxIVfHxm9Ima2OS-xyKyL1l3veZrxNzAyIBGQOVl3NQVEBRi6caCZ8YcBWllJ45WLwtKn17T-3p02jpXNQf0UaYTQoVUjtbQB7rpY7cTjT1arxFV8fKU4SJOD1Lkce5weHvZj53syfepzox_-y7biQ5luDJ4kamcWnQw--nbRrozjmwXFw4QiJqOgsx0gnSEtlcNdSQyof1_
+# @Day1WebApi_HostAddress = http://localhost:5198
+@Day1WebApi_HostAddress = http://localhost:5000
+@AccessToken = CfDJ8AhvjefdrPhDu-nDFsJRfqjK5BOffpFXVftOjMfM6PYq672RPzLWl5crt52xIR2mBx_TIrk3Xc_BfG4RZJ-98qy9fC7YlDLTQCVD3eh2jb2J00wgZKrxkrjK4LATr-Dcjx19BGd6OT4MItJ9c2UBghio0koLkgQRXGQdZSlCXWiPauDO8RkR0vvgeCg7vYqD8FONDmISm6javv2jaXYKW66cX572Ho6RFBX8OQfzGo5Nd07oOlxu53oCo76s_DKFnEK7VgmYnY6VnkSbHj-z5Gje9T6MEdixFaLSpKAuS5Km7sdJPNjsWIN8JGgSDbe5hasm0qp-gTUEVXz6LwHDK1xw9GzOjfbfg1Y5ZerbVT_NGvckRRUjMHPRdKQnbTQeQP0-wLiCcPb6Um0LS3eQMhhmEs0gYWrv2jnuyWkbLEXJFYFMvE7GxDTBNchsQjkX82YYXMH0CdkgagEzdgq-teRQ08EGyup4upS41X2g5uYwPPFLsJoPrM1m1qPS2sRlECEtskVQhmRq61IHlqxkSa45cJPhaCdckOR8ZlSOCv8zQL89ch4yShZRmXzixIN_57ya0PrQHSc46fM5B7Ekow0ckcZTQZ3gEY6VIE8j9kw5QVZIqrPziXsXsKdiTuqAL2PYA_HeJdNqZezhb4VjEaeyCSdlhT3HbU9ad6ATShm25UEB5rVuIqHfJUL4TXGsFoyLhIIbSEAMxVlFXNngytRpR5v0NWDXb94CGqPUWlqY3kTAOHFgmaiM5NiHhAoPwkA_fB1ZVzYVR4D5EyCe_BVB9QVKzQ7qz7JI-90kFbW3vcQYF4B-ty2sKC0AP3CbjANTBTBZjdO7G8gQa0XDbpM
 
 GET {{Day1WebApi_HostAddress}}/weatherforecast/
 Accept: application/json
@@ -23,8 +23,8 @@ Accept: application/json
 Content-Type: application/json
 
 {
-  "email": "1236",
-  "password": "Password123!"
+  "email": "1234",
+  "password": "Pass123!"
 }
 
 ####
@@ -88,7 +88,7 @@ Content-Type: application/json
 Authorization: Bearer {{AccessToken}}
 
 {
-  "email": "andi@example.com",
+  "email": "dian.gufron@kemenkeu.go.id",
   "roleName": "Admin"
 }
 
